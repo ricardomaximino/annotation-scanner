@@ -81,7 +81,7 @@ public class MasterdataValidator implements ConstraintValidator<MasterdataHost, 
 		}
 
 		public String toString() {
-			return "Type: " + type + "is valid: " + isValid + " response message: " + responseMessage;
+			return "Type: " + type + " code: " + code + " is valid: " + isValid + " response message: " + responseMessage;
 		}
 	}
 
